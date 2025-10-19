@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2014 Lexus CT 200h - Low Mileage Private Sale</title>
+    <!-- Load Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean, modern look */
+        body { font-family: 'Inter', sans-serif; }
+        /* Style for image placeholders */
+        .img-placeholder {
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e5e7eb; /* Light gray background */
+            border-radius: 0.5rem;
+            color: #4b5563;
+            font-weight: 600;
+            border: 2px dashed #9ca3af;
+        }
+        /* Custom scroll behavior for sections */
+        html { scroll-behavior: smooth; }
+        .feature-box { transition: transform 0.3s ease; }
+        .feature-box:hover { transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- NAVIGATION -->
+    <nav class="bg-white sticky top-0 z-10 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#top" class="text-xl font-bold text-gray-900">2014 CT 200h Private Sale</a>
+                <div class="hidden md:flex space-x-4">
+                    <a href="#details" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Details & Features</a>
+                    <a href="#maintenance" class="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">Maintenance</a>
+                    <a href="#safety" class="text-red-600 hover:text-red-800 px-3 py-2 rounded-md text-sm font-medium border border-red-200 rounded-lg">Transaction Safety</a>
+                    <a href="#contact" class="bg-indigo-600 text-white hover:bg-indigo-700 px-4 py-2 rounded-lg text-sm font-medium shadow-md">Contact Seller</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+        <!-- HERO SECTION -->
+        <section id="top" class="text-center mb-12">
+            <h1 class="text-5xl font-extrabold text-gray-900 tracking-tight sm:text-6xl mb-4">
+                2014 Lexus CT 200h Hybrid
+            </h1>
+            <p class="text-3xl font-semibold text-gray-700 sm:text-4xl">
+                Only <span class="text-indigo-600">Under 70,000 Original Miles!</span>
+            </p>
+            <p class="mt-4 text-lg text-gray-500 max-w-3xl mx-auto">
+                Premium Luxury Hybrid Hatchback — Meticulously maintained and priced to ensure a secure, immediate lien payoff.
+            </p>
+        </section>
+
+        <!-- KEY STATS & PRICE CARD -->
+        <div class="bg-white shadow-xl rounded-2xl p-6 mb-12 border-t-4 border-indigo-600">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                
+                <!-- PRICE -->
+                <div class="p-4 bg-indigo-50 rounded-xl">
+                    <p class="text-3xl font-bold text-indigo-600">$20,995</p>
+                    <p class="text-sm text-gray-500 font-medium mt-1">Asking Price (Negotiable)</p>
+                    <p class="text-xs text-red-500 mt-1">Must sell for minimum $19,996 to clear lien.</p>
+                </div>
+                
+                <!-- MILEAGE -->
+                <div class="p-4 bg-gray-100 rounded-xl">
+                    <p class="text-3xl font-bold text-gray-800">~70,000</p>
+                    <p class="text-sm text-gray-500 font-medium mt-1">Original Miles (Low for 2014)</p>
+                </div>
+                
+                <!-- MPG -->
+                <div class="p-4 bg-gray-100 rounded-xl">
+                    <p class="text-3xl font-bold text-green-600">42 MPG</p>
+                    <p class="text-sm text-gray-500 font-medium mt-1">Combined Fuel Economy (43 City / 40 Hwy)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMAGE GALLERY SECTION -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b pb-2">Photo Gallery</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="img-placeholder">Exterior Front Quarter</div>
+                <div class="img-placeholder">Exterior Rear Quarter</div>
+                <div class="img-placeholder">Interior Dashboard View</div>
+                <div class="img-placeholder">Rear Hatch/Cargo Area</div>
+                <div class="img-placeholder">Close-up on Wheels/Tires</div>
+                <div class="img-placeholder">Engine Bay (Clean)</div>
+                <div class="img-placeholder">Odometer Reading</div>
+                <div class="img-placeholder">Rear Seat Condition</div>
+            </div>
+            <p class="text-center text-sm text-gray-500 mt-4">Note: Actual listing will include high-resolution, unedited photos.</p>
+        </section>
+
+        <!-- CAR DETAILS & FEATURES -->
+        <section id="details" class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b pb-2">Key Features & 2014 Upgrades</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <div class="feature-box bg-white p-6 rounded-xl shadow-md border-l-4 border-indigo-500">
+                    <h3 class="font-bold text-xl mb-3 text-gray-900">Performance & Handling</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>**Selectable Drive Modes (SPORT/ECO):** Customize throttle and steering response.</li>
+                        <li>**2014 Chassis Tune:** Improved suspension for a more comfortable ride than previous years.</li>
+                        <li>Smooth E-CVT Automatic Transmission.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box bg-white p-6 rounded-xl shadow-md border-l-4 border-indigo-500">
+                    <h3 class="font-bold text-xl mb-3 text-gray-900">Luxury & Comfort</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>**Heated Front Seats** (If applicable, state actual material: [NuLuxe/Leather] upholstery).</li>
+                        <li>**Dual-Zone Climate Control** for maximum passenger comfort.</li>
+                        <li>Push-Button Start with Smart Access Keyless Entry.</li>
+                        <li>[If applicable: Factory Sunroof/Moonroof]</li>
+                    </ul>
+                </div>
+
+                <div class="feature-box bg-white p-6 rounded-xl shadow-md border-l-4 border-indigo-500">
+                    <h3 class="font-bold text-xl mb-3 text-gray-900">Technology & Safety</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-1">
+                        <li>**Lexus Display Audio** with Bluetooth and Dual USB ports.</li>
+                        <li>**Backup Camera** (Grid lines for 2014 model year).</li>
+                        <li>LED Daytime Running Lights (DRLs).</li>
+                        <li>[If applicable: Lexus Remote Touch Interface].</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- MAINTENANCE SECTION -->
+        <section id="maintenance" class="mb-12 p-8 bg-white rounded-2xl shadow-xl">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Maintenance & Condition (Buy with Confidence)</h2>
+            <p class="text-lg text-gray-600 mb-6">
+                This vehicle has been maintained to Lexus standards since new, which is critical for a high-performance hybrid system.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-bold text-xl text-gray-900 flex items-center mb-2">
+                        <svg class="w-6 h-6 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        Service Records Provided
+                    </h3>
+                    <p class="text-gray-600">
+                        **Full, complete service history available and organized in a binder.** This includes records for all scheduled Lexus maintenance and oil changes. Buyers are welcome to verify this history.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-xl text-gray-900 flex items-center mb-2">
+                        <svg class="w-6 h-6 text-indigo-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        Pre-Purchase Inspection
+                    </h3>
+                    <p class="text-gray-600">
+                        I encourage serious buyers to have a **Pre-Purchase Inspection (PPI)** done by a certified mechanic of their choice (at buyer's expense). Confidence in the vehicle is key.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECURE TRANSACTION PROTOCOL -->
+        <section id="safety" class="mb-12 p-8 bg-red-50 rounded-2xl shadow-xl border-l-4 border-red-600">
+            <h2 class="text-3xl font-bold text-red-700 mb-4">🛡️ SECURE SALE PROTOCOL (Lien Payoff Required)</h2>
+            <p class="text-lg text-gray-800 mb-6 font-semibold">
+                This is a private sale and the car has an outstanding loan with **[Your Lender's Name]**. The full loan payoff of **$19,996** must be settled to clear the lien and release the title to the buyer.
+            </p>
+            <div class="space-y-4">
+                <h3 class="font-bold text-xl text-gray-900">Our Guaranteed Three-Party Process:</h3>
+                <ul class="list-none space-y-3 text-gray-700">
+                    <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-indigo-400">
+                        **1. Finalize at the Bank:** The transaction *must* be completed at a local branch of **[Your Lender's Name]** with a loan officer present.
+                    </li>
+                    <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-indigo-400">
+                        **2. Secure Funds Only:** Payment must be a **Cashier's Check** made payable to the bank, or an instant **Bank Wire Transfer**.
+                    </li>
+                    <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-indigo-400">
+                        **3. Simultaneous Payoff & Title Release:** The bank confirms the loan is paid to zero in the buyer’s presence, signs the lien release, and initiates the final title transfer immediately.
+                    </li>
+                    <li class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-indigo-400">
+                        **Buyer Financing Welcome:** We will coordinate directly with the buyer's lender (if applicable) for the three-party payoff and title transfer.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="text-center p-8 bg-indigo-600 rounded-2xl shadow-2xl">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to Drive Away? Contact the Owner.</h2>
+            <p class="text-indigo-100 mb-6">
+                Serious inquiries only. Please be prepared to provide proof of funds or loan pre-approval before scheduling a final viewing.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="tel:555-123-4567" class="bg-white text-indigo-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-150">
+                    Call/Text: (555) 123-4567
+                </a>
+                <a href="mailto:yoursaleemail@example.com" class="bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-indigo-800 transition duration-150">
+                    Email: yoursaleemail@example.com
+                </a>
+            </div>
+            <p class="text-xs text-indigo-200 mt-4">
+                VIN available upon request. Located in [Your City, State].
+            </p>
+        </section>
+
+    </main>
+    
+    <footer class="text-center py-4 text-gray-500 text-sm border-t mt-10">
+        &copy; 2025 Private Vehicle Sale.
+    </footer>
+
+</body>
+</html>
